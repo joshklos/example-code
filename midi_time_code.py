@@ -1,3 +1,6 @@
+# This code receives midi time code from a DAW and displays it on a pair of big 7 segment displays
+# Uses an AdaFruit Feather board.
+
 import board
 from adafruit_ht16k33.segments import BigSeg7x4
 import usb_midi
